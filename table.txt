@@ -1,0 +1,127 @@
+                      VOID  CHAR  INT  FLOAT  ID  (   )   ,   {   } ...   -  \
+PROGRAM                  0     0    0      0  -1 -1  -1  -1  -1  -1 ...  -1   
+PROGRAM'                 1     1    1      1  -1 -1  -1  -1  -1  -1 ...  -1   
+FUNCTION                 3     3    3      3  -1 -1  -1  -1  -1  -1 ...  -1   
+TYPE                     4     5    6      7  -1 -1  -1  -1  -1  -1 ...  -1   
+DECLARATOR              -1    -1   -1     -1   8 -1  -1  -1  -1  -1 ...  -1   
+PARAMETER               -1     9    9      9  -1 -1  10  -1  -1  -1 ...  -1   
+PARAMETER'              -1    -1   -1     -1  -1 -1  12  11  -1  -1 ...  -1   
+COMPOUND_STATEMENT      -1    -1   -1     -1  -1 -1  -1  -1  13  -1 ...  -1   
+COMPOUND_STATEMENT'     -1    14   14     14  14 -1  -1  -1  14  15 ...  -1   
+DECLARATION_LIST        -1    16   16     16  -1 -1  -1  -1  -1  -1 ...  -1   
+DECLARATION_LIST'       -1    18   18     18  18 -1  -1  -1  18  18 ...  -1   
+DECLARATION             -1    19   19     19  -1 -1  -1  -1  -1  -1 ...  -1   
+INIT                    -1    -1   -1     -1  -1 -1  -1  -1  -1  -1 ...  -1   
+ZHI                     -1    -1   -1     -1  -1 -1  -1  -1  -1  -1 ...  -1   
+PTYPE                   -1    24   25     26  -1 -1  -1  -1  -1  -1 ...  -1   
+STATEMENT_LIST          -1    27   27     27  27 -1  -1  -1  27  -1 ...  -1   
+STATEMENT_LIST'         -1    28   28     28  28 -1  -1  -1  28  29 ...  -1   
+STATEMENT               -1    32   32     32  33 -1  -1  -1  35  -1 ...  -1   
+JUMP_STATEMENT          -1    -1   -1     -1  -1 -1  -1  -1  -1  -1 ...  -1   
+JUMP_STATEMENT'         -1    -1   -1     -1  40 -1  -1  -1  -1  -1 ...  -1   
+EXPRESSION_LIST         -1    -1   -1     -1  42 -1  -1  -1  -1  -1 ...  -1   
+EXPRESSION_LIST'        -1    44   44     44  44 -1  -1  -1  44  44 ...  -1   
+EXPRESSION              -1    -1   -1     -1  45 -1  -1  -1  -1  -1 ...  -1   
+TERM                    -1    -1   -1     -1  47 -1  48  -1  -1  -1 ...  -1   
+OPERATOR                -1    -1   -1     -1  -1 -1  -1  -1  -1  -1 ...  51   
+SELECTION_STATEMENT     -1    -1   -1     -1  -1 -1  -1  -1  -1  -1 ...  -1   
+SELECTION_STATEMENT'    -1    56   56     56  56 -1  -1  -1  56  56 ...  -1   
+ITERATION_STATEMENT     -1    -1   -1     -1  -1 -1  -1  -1  59  -1 ...  -1   
+SINGLE                  -1    -1   -1     -1  60 -1  -1  -1  -1  -1 ...  -1   
+COMPLEX                 -1    -1   -1     -1  -1 -1  -1  -1  -1  -1 ...  -1   
+
+                       >   <  IF  ELSE  WHILE  FOR  ++  --  #  
+PROGRAM               -1  -1  -1    -1     -1   -1  -1  -1 -1  
+PROGRAM'              -1  -1  -1    -1     -1   -1  -1  -1  2  
+FUNCTION              -1  -1  -1    -1     -1   -1  -1  -1 -1  
+TYPE                  -1  -1  -1    -1     -1   -1  -1  -1 -1  
+DECLARATOR            -1  -1  -1    -1     -1   -1  -1  -1 -1  
+PARAMETER             -1  -1  -1    -1     -1   -1  -1  -1 -1  
+PARAMETER'            -1  -1  -1    -1     -1   -1  -1  -1 -1  
+COMPOUND_STATEMENT    -1  -1  -1    -1     -1   -1  -1  -1 -1  
+COMPOUND_STATEMENT'   -1  -1  14    -1     14   14  -1  -1 -1  
+DECLARATION_LIST      -1  -1  -1    -1     -1   -1  -1  -1 -1  
+DECLARATION_LIST'     -1  -1  18    -1     18   18  -1  -1 -1  
+DECLARATION           -1  -1  -1    -1     -1   -1  -1  -1 -1  
+INIT                  -1  -1  -1    -1     -1   -1  -1  -1 -1  
+ZHI                   -1  -1  -1    -1     -1   -1  -1  -1 -1  
+PTYPE                 -1  -1  -1    -1     -1   -1  -1  -1 -1  
+STATEMENT_LIST        -1  -1  27    -1     27   27  -1  -1 -1  
+STATEMENT_LIST'       -1  -1  28    -1     28   28  -1  -1 -1  
+STATEMENT             -1  -1  34    -1     35   35  -1  -1 -1  
+JUMP_STATEMENT        -1  -1  -1    -1     -1   -1  -1  -1 -1  
+JUMP_STATEMENT'       -1  -1  -1    -1     -1   -1  -1  -1 -1  
+EXPRESSION_LIST       -1  -1  -1    -1     -1   -1  -1  -1 -1  
+EXPRESSION_LIST'      -1  -1  44    -1     44   44  -1  -1 -1  
+EXPRESSION            -1  -1  -1    -1     -1   -1  -1  -1 -1  
+TERM                  -1  -1  -1    -1     -1   -1  -1  -1 -1  
+OPERATOR              52  53  -1    -1     -1   -1  -1  -1 -1  
+SELECTION_STATEMENT   -1  -1  54    -1     -1   -1  -1  -1 -1  
+SELECTION_STATEMENT'  -1  -1  56    55     56   56  -1  -1 -1  
+ITERATION_STATEMENT   -1  -1  -1    -1     57   58  -1  -1 -1  
+SINGLE                -1  -1  -1    -1     -1   -1  -1  -1 -1  
+COMPLEX               -1  -1  -1    -1     -1   -1  61  62 -1  
+
+[30 rows x 28 columns]0 PROGRAM -> ['FUNCTION', "PROGRAM'"]
+1 PROGRAM' -> ['FUNCTION', "PROGRAM'"]
+2 PROGRAM' -> ['$']
+3 FUNCTION -> ['TYPE', 'DECLARATOR', 'COMPOUND_STATEMENT']
+4 TYPE -> ['VOID']
+5 TYPE -> ['CHAR']
+6 TYPE -> ['INT']
+7 TYPE -> ['FLOAT']
+8 DECLARATOR -> ['ID', '(', 'PARAMETER', ')']
+9 PARAMETER -> ['PTYPE', 'ID', "PARAMETER'"]
+10 PARAMETER -> ['$']
+11 PARAMETER' -> [',', 'PTYPE', 'ID', "PARAMETER'"]
+12 PARAMETER' -> ['$']
+13 COMPOUND_STATEMENT -> ['{', "COMPOUND_STATEMENT'", '}']
+14 COMPOUND_STATEMENT' -> ['STATEMENT_LIST']
+15 COMPOUND_STATEMENT' -> ['$']
+16 DECLARATION_LIST -> ['DECLARATION', "DECLARATION_LIST'"]
+17 DECLARATION_LIST' -> ['DECLARATION', "DECLARATION_LIST'"]
+18 DECLARATION_LIST' -> ['$']
+19 DECLARATION -> ['PTYPE', 'ID', 'INIT', ';']
+20 INIT -> ['=', 'ZHI']
+21 INIT -> ['$']
+22 ZHI -> ['DIGIT']
+23 ZHI -> ['CHARR']
+24 PTYPE -> ['CHAR']
+25 PTYPE -> ['INT']
+26 PTYPE -> ['FLOAT']
+27 STATEMENT_LIST -> ['STATEMENT', "STATEMENT_LIST'"]
+28 STATEMENT_LIST' -> ['STATEMENT', "STATEMENT_LIST'"]
+29 STATEMENT_LIST' -> ['$']
+30 STATEMENT -> ['JUMP_STATEMENT']
+31 STATEMENT -> ['COMPOUND_STATEMENT']
+32 STATEMENT -> ['DECLARATION_LIST']
+33 STATEMENT -> ['EXPRESSION_LIST']
+34 STATEMENT -> ['SELECTION_STATEMENT']
+35 STATEMENT -> ['ITERATION_STATEMENT']
+36 JUMP_STATEMENT -> ['BREAK', ';']
+37 JUMP_STATEMENT -> ['CONTINUE', ';']
+38 JUMP_STATEMENT -> ['RETURN', "JUMP_STATEMENT'"]
+39 JUMP_STATEMENT' -> ['ZHI', ';']
+40 JUMP_STATEMENT' -> ['EXPRESSION', ';']
+41 JUMP_STATEMENT' -> [';']
+42 EXPRESSION_LIST -> ['EXPRESSION', ';', "EXPRESSION_LIST'"]
+43 EXPRESSION_LIST' -> ['EXPRESSION', ';', "EXPRESSION_LIST'"]
+44 EXPRESSION_LIST' -> ['$']
+45 EXPRESSION -> ['ID', 'OPERATOR', 'TERM']
+46 TERM -> ['ZHI']
+47 TERM -> ['ID']
+48 TERM -> ['$']
+49 OPERATOR -> ['=']
+50 OPERATOR -> ['+']
+51 OPERATOR -> ['-']
+52 OPERATOR -> ['>']
+53 OPERATOR -> ['<']
+54 SELECTION_STATEMENT -> ['IF', '(', 'EXPRESSION', ')', 'COMPOUND_STATEMENT', "SELECTION_STATEMENT'"]
+55 SELECTION_STATEMENT' -> ['ELSE', 'STATEMENT']
+56 SELECTION_STATEMENT' -> ['$']
+57 ITERATION_STATEMENT -> ['WHILE', '(', 'EXPRESSION', ')', 'COMPOUND_STATEMENT']
+58 ITERATION_STATEMENT -> ['FOR', '(', 'EXPRESSION', ';', 'EXPRESSION', ';', 'SINGLE', ')']
+59 ITERATION_STATEMENT -> ['COMPOUND_STATEMENT']
+60 SINGLE -> ['ID', 'COMPLEX']
+61 COMPLEX -> ['++']
+62 COMPLEX -> ['--']

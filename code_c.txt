@@ -1,0 +1,21 @@
+int f(int a, int b)
+{
+    char s = 's';
+    int i;
+    for(i = 1; i < 3; i++)
+    {
+        if ( a > b )
+        {
+            b = 13;
+        }
+        else
+        {
+            break;
+        }
+    }
+}
+
+int main(){
+    int a = 12;
+    int b = 11;
+}
